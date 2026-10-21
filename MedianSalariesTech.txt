@@ -1,0 +1,11 @@
+OCCUPATION~JOB SUMMARY~ENTRY-LEVEL EDUCATION~2025 MEDIAN PAY ALL US~2024 MEDIAN PAY MASSACHUSETTS ONLY
+Computer and Information Research Scientists~Computer and information research scientists design innovative uses for new and existing computing technology.~Master's degree~$140_300~$170_510
+Computer Network Architects~Computer network architects design and implement data communication networks, including local area networks (LANs), wide area networks (WANs), and intranets.~Bachelor's degree~$134_050~$155_060
+Computer Programmers~Computer programmers write, modify, and test code and scripts that allow computer software and applications to function properly.~Bachelor's degree~$100_390~$128_390
+Computer Support Specialists~Computer support specialists maintain computer networks and provide technical help to computer users (Digital Forensics only Cyber majors fall here).~See How to Become One~$62_890~$88_650
+Computer Systems Analysts~Computer systems analysts study an organization’s current computer systems and design ways to improve efficiency.~Bachelor's degree~$105_850~$128_240
+Database Administrators and Architects~Database administrators and architects create or organize systems to store and secure data.~Bachelor's degree~$126_760~$129_300
+Information Security Analysts~Information security analysts plan and carry out security measures to protect an organization’s computer networks and systems (software Security Cyber majors are here).~Bachelor's degree~$129_180~$136_550
+Network and Computer Systems Administrators~Network and computer systems administrators install, configure, and maintain organizations’ computer networks and systems (Comp and Pen Test Cyber).~Bachelor's degree~$99_130~$110_980
+Software Developers, Quality Assurance Analysts, and Testers~Software developers design computer applications or programs. Software quality assurance analysts and testers identify problems with applications or programs and report defects.~Bachelor's degree~$134_040~$165_210
+Web Developers and Digital Designers~Web developers create and maintain websites. Digital designers develop, create, and test website or interface layout, functions, and navigation for usability.~Bachelor's degree~$99_520~$98_470
