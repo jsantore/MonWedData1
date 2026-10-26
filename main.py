@@ -20,6 +20,7 @@ with open("MedianSalariesTech.txt","r") as file:
         ma_pay_as_string = salary_data[-1]
         ma_pay_as_string = ma_pay_as_string[1:]
         ma_pay = int(ma_pay_as_string)
+        #I tried it out, the data ranges from -$1050 to $31170
 
 
 big_string_of_drawables = "\n".join(list_of_drawables)
