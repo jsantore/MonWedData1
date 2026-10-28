@@ -27,7 +27,10 @@ list_of_drawables.append(x_axis)
 list_of_drawables2.append(y_axis)
 list_of_drawables2.append(x_axis)
 #here is where we should add the labels for the vertical axis of the graph in class on Wednesday
-
+for amount in range(0,35_000, 5000):
+    location = X_AXIS_HEIGHT-amount/50
+    axis_label=f'''<text x=30 y={location} fill='black' font-size=18> ${amount} </text>'''
+    list_of_drawables.append(axis_label)
 
 #now open the file and process it, finding the data we want
 with open("MedianSalariesTech.txt","r") as file:
