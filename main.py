@@ -10,7 +10,9 @@ X_AXIS_HEIGHT =900
 list_of_drawables = []
 #I've added this second list of drawables for the second graph outside of class
 list_of_drawables2 = []
-
+#we need to add a Graph title
+title= ui.label("How much more do tech jobs pay in MA compared to all of US")
+title.style("font-size: 20px")
 #when we want two graphs on one over the other, just add a second interactive image
 graph_space = ui.interactive_image(size=(WIDTH, HEIGHT))
 graph_space.classes("w-lg bg-stone-100")
@@ -22,6 +24,8 @@ x_axis = f'''<line x1=100 y1={X_AXIS_HEIGHT} x2={WIDTH} y2={X_AXIS_HEIGHT} strok
 y_axis= f'''<line x1=100 y1=0  x2=100 y2={X_AXIS_HEIGHT} stroke='black' stroke-width=3 />'''
 list_of_drawables.append(y_axis)
 list_of_drawables.append(x_axis)
+list_of_drawables2.append(y_axis)
+list_of_drawables2.append(x_axis)
 #here is where we should add the labels for the vertical axis of the graph in class on Wednesday
 
 
@@ -70,5 +74,6 @@ with open("MedianSalariesTech.txt","r") as file:
 big_string_of_drawables = "\n".join(list_of_drawables)
 graph_space.set_content(big_string_of_drawables)
 #here we would do the same thing to the other graph with list_of_drawables2
-
+second_drawables = "\n".join(list_of_drawables2)
+graph_space2.set_content(second_drawables)
 ui.run()
