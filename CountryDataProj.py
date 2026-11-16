@@ -17,7 +17,7 @@ while True:
     print("""
 [1] Find largest Population increase
 [2] Find 'largest' population decrease 
-[3] Find coutries with a young median population
+[3] Find countries with a young median population
 [4] Find growing Countries
 [5] quit
     """)
@@ -32,9 +32,21 @@ while True:
         print(f"{largest_so_far['name']} grew by {largest_so_far['pop_change_num']}  ")
 
     elif choice == "2":
-        pass
+        smallest_so_far = countries[0]
+        for current_country in countries:
+            current_pop_change = int(current_country["pop_change_num"])
+            biggest_loss = int(smallest_so_far["pop_change_num"])
+            if current_pop_change < biggest_loss:
+                smallest_so_far = current_country
+        print(f"{smallest_so_far['name']} shrank by {smallest_so_far['pop_change_num']}  ")
     elif choice == "3":
-        pass
+        how_many = 0
+        for current_country in countries:
+            current_country_age = float(current_country['median_age'])
+            if current_country_age < 25:
+                how_many += 1
+                print(f"{current_country['name']} is a young country with half the people younger than {current_country['median_age']}  ")
+        print(f"There were {how_many} young countries with a lots of people in them")
     elif choice == "4":
         pass
     elif choice == "5":
